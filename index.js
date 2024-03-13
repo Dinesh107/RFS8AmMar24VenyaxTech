@@ -2,19 +2,15 @@
 
 // window.alert("Hai Ganesh");
 
-
-
 // Variables
 
 // let firstName = "Ganesh"  // strings
 // let age = 20; // numbers
 // let student = true;  // booleans
 
-
 // console.log(firstName);
 // console.log(age);
 // console.log(student);
-
 
 // console.log(typeof firstName);
 
@@ -46,18 +42,12 @@
 
 // console.log(`you have ${products} products in your cart`);
 
-
-
-// let text = 
+// let text =
 // `hello ${customer}
 // you have ${products} products in your cart
 // your total is ${total}`;
 
 // console.log(text);
-
-
-
-
 
 // let username = window.prompt("What is your username?");
 
@@ -97,16 +87,15 @@
 
 // console.log(`the username is ${username}`);
 
-let username;
+// let username;
 
-document.getElementById("myButton").onclick = function() {
+// document.getElementById("myButton").onclick = function() {
 
-   username = document.getElementById("myText").value;
+//    username = document.getElementById("myText").value;
 
-   console.log(`Your username is ${username}`);
+//    console.log(`Your username is ${username}`);
 
-}
-
+// }
 
 // const PI = 3.14;
 
@@ -114,16 +103,13 @@ document.getElementById("myButton").onclick = function() {
 
 // let circumfernce;
 
-
 // radius = window.prompt("Enter the radius of the circle");
 
 // radius = Number(radius);
 
 // circumfernce = 2 * PI * radius;
 
-
 // console.log("the circumference is", circumfernce);
-
 
 // let userName = "Ganesh Sankar";
 
@@ -153,17 +139,14 @@ document.getElementById("myButton").onclick = function() {
 
 // console.log(userName.toLowerCase());
 
-
 // fullName = "Ganesh Siva ";
 
 // let firstName;
 
-// let lastName; 
-
+// let lastName;
 
 // firstName = fullName.slice(0, 6);
 // lastName = fullName.slice(7);
-
 
 // firstName = fullName.slice(0, fullName.indexOf(" "));
 // lastName = fullName.slice(fullName.indexOf(" ") + 1);
@@ -171,19 +154,18 @@ document.getElementById("myButton").onclick = function() {
 // console.log(firstName);
 // console.log(lastName);
 
-
 // let age = 11;
 
 // if(age >= 18) {
- 
+
 //    console.log("you are an adult!");
 
-// } 
+// }
 
 // if(age >= 18) {
- 
+
 //     console.log("you are an adult!");
- 
+
 //  } else {
 
 //     console.log("you are an child!");
@@ -212,103 +194,7 @@ document.getElementById("myButton").onclick = function() {
 
 //     console.log("Invalid Mark");
 
-// } 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// }
 
 // let numbers = [2,3,4,5,6];
 
@@ -320,7 +206,6 @@ document.getElementById("myButton").onclick = function() {
 
 // console.log(min);
 
-
 // let username = "Js Student";
 
 // let letters = [...username];
@@ -328,7 +213,7 @@ document.getElementById("myButton").onclick = function() {
 // console.log(letters);
 
 // function openShowRoom(...cars) {
- 
+
 //    console.log(cars);
 
 // }
@@ -343,18 +228,74 @@ document.getElementById("myButton").onclick = function() {
 
 // openShowRoom(car1, car2, car3, car4);
 
+// document.getElementById("myBtn").onclick = function() {
+
+//    if(document.getElementById("myCheckbox").checked) {
+
+//       console.log("You are subscribed!");
+
+//    } else {
+
+//       console.log("You are not subscribed!");
+
+//    }
+
+// }
+
+// let grade = "H";
+
+// switch (grade) {
+//   case "A":
+//     console.log("You did Great!!!");
+//     break;
+
+//   case "B":
+//     console.log("You did Good!!!");
+//     break;
+
+//   case "C":
+//     console.log("You did Okay!!!");
+//     break;
+
+//   case "D":
+//     console.log("You Passed");
+//     break;
+
+//   case "E":
+//     console.log("You Failed");
+//     break;
+
+//   default:
+//     console.log("Invaild Case");
+// }
 
 
 
+// let i = 1; // intialization  
+
+// while(i <= 5) {  // i = 1, i = 2, i =3, i =4, i = 5
+
+//    console.log(i); 
+
+//    i = i + 1;  // incrementing i by 1
+// }
+
+// console.log("-------------");
+
+// console.log(i);
 
 
+// 10 to 1
 
+let i = 4; // intialization  
 
+while(i >= 1) {  //
 
+   console.log(i); 
 
+   i = i - 1;  // decrementing i by 1
+}
 
+console.log("-------------");
 
-
-
-
-
+console.log(i);
