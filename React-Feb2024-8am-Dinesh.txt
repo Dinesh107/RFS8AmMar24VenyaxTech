@@ -1,0 +1,605 @@
+Day 1 - 8:00AM - IST - 08/02/2024.
+
+React JS :- 
+
+	React is Javascript library, thats is used to easily build and arrange user interfaces for web applications.
+
+        React focuses on building a web applications using things called components.
+
+Components --> It is self-contained section of code, that function as a reusable building blocks.
+
+inside the component we have Reusable Javascript and HTML code, we can create compilicated structures from the components. 
+
+
+We uses syntax extensions of javascript which is known JSX 
+
+JSX ---> it allows us to wite the HTML like code in the javascript files.
+
+DOM ---> Document Object Model
+
+React is also utilizes a Virtual DOM 
+
+Virtual DOM --> It is a lightweight version of the real DOM of a web page, we can keep track of any changes to the virtual dom only apply to that specific change to the real DOM without needing to refresh the entire web page only that specfic section this reduces rendering performance.
+
+Javascript, HTML and CSS.
+
+HTML 
+
+Day 2 - 8:00AM - IST - 09/02/2024.
+
+HTML ---> Hyper Text Markup Language 
+
+Structure to the webpage. 
+
+HTML is foundation or the skeletal structure of the webpage.
+
+CSS ----> Cascading Style Sheets
+
+VS Code for Code.
+
+<>  ----> open tag
+
+</> ----> closing tag
+
+----------------------------------------------------------------
+
+Header Part
+
+Body of the page
+
+Footer page
+
+--------------------------------------------------------------------------------------
+
+Day 3 - 8:00AM - IST - 12/02/2024.
+
+Tags in HTML 
+
+<p></p>
+
+<br>
+
+<hr> 
+
+<pre> </pre>
+
+Commenting 
+
+<!-- Dummy Text -->
+
+
+Day 4 - 8:00AM - IST - 13/02/2024.
+
+Hyperlinks :- It is s digital reference to data that user can follow by clicking or tapping a buttton or a link.
+
+Attributes ---> key and value pair that modifies the behavior of an element
+
+href ----> hypertext reference
+
+Day 5 - 8:00AM - IST - 14/02/2024.
+
+Favicons ---> 
+
+code :- 
+
+<link rel="icon" type="image.jpg" href="Images/fav1.png">
+
+Text Formatting
+
+span tag ---> inline container to group elements for styling 
+
+div tag ----> block container to group elements for styling purposes
+
+Lists :- 
+*Order list
+*Unorder List
+*Description List
+
+
+
+Day 6 - 8:00AM - IST - 15/02/2024.
+
+Tables
+
+Buttons
+
+Day 7 - 8:00AM - IST - 16/02/2024.
+
+Forms  
+
+Day 8 - 4:30PM - IST - 19/02/2024.
+
+Task Review and Doubt Clarification
+
+Day 9 - 8:30AM - IST - 20/02/2024.
+
+
+CSS 
+
+Cascading Style Sheets
+
+We are able apply the css properties to color, style or decorate our HTML Page.
+
+
+There ae three different ways for applcsss to Our HTML Markup.
+
+* Inline CSS
+
+* Internal CSS
+
+* External CSS
+
+Id --> #  ----> To css Property to the paticular html tag
+
+Class ---> .  ----> we apply the css property to the html tags by grouping them.
+
+
+Day 10 - 8:00AM - IST - 21/02/2024.
+
+Holiday Personal Work 
+
+Day 11 - 8:00AM - IST - 22/02/2024.
+
+Colors 
+
+names, RGB value(Red, Green, Blue), Hexadecimal, hsl values
+
+Fonts
+
+Borders 
+
+shadows 
+
+Day 12 - 8:00AM - IST - 23/02/2024
+
+Margins ----> Space around the element.
+
+Float ----> allows other elements to flow around it. 
+
+we will use this float particulary in div sections, block level elements
+
+
+Day 13 - 8:00AM - IST - 27/02/2024
+
+overflow
+
+display properties = property specifies if/how an elements is displayed
+
+block level ---> start on a new line, take up th full width available
+
+(h1, div, p, form, header, footer)
+
+inline ---> do not start on a new line, width is limited to what is needed (span, a, img)
+
+Pseudo classes :- Here the classes are keywords which is added to a selector, they modify the behavior of the element when they are in certain state. 
+
+Day 14 - 8:00AM - IST - 28/02/2024
+
+nth-child pseudo class 
+
+Pseudo elements = it is keywords which is added after a selector. it used style the specific element.
+
+selector::Pseudo element
+
+
+Day 15 - 8:00AM - IST - 29/02/2024
+
+Positions in CSS 
+
+Relative  ---> positioned relative to where it normally should be
+
+fixed  ----> positioned relative to the web browser
+
+absolute ----> positioned relative to nearest ancestor
+
+sticky ----> positioned based on scroll position
+
+static ----> default position for an element
+
+
+Flexbox :- 
+
+Justify content ----> it will set the alignment on the main axis.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Bootstarp and Tailwind :-
+
+Javascript :- It make a website dynamic we need a javascript.
+
+Varaibles :- a variable is a container for storing the data 
+
+a variable behaves as if it was the value it contains
+
+Two Steps
+
+1) Declaration (var, let, const)
+
+2) Assignment (= assignment operator)
+
+let age;
+
+age = 20;
+
+let age = 20;
+
+
+Day 16 - 8:00AM - IST - 04/03/2024
+
+Templeate Literals :- instead of double or single quotes.
+
+it allows embedded variables and function expressions. 
+
+`` ---> back ticks
+
+Accept user input 
+
+--> Normal way - using window prompt we can get the input from the user.
+
+Professional way - HTML textbox.
+
+Day 17 - 8:15AM - IST - 05/03/2024
+
+Type Conversion :- change the datatype of a value to another (strings, numbers, booleans)
+
+let, var, const
+
+Constant :- Varaible that can't be changed.
+
+Strings :- Series of characters or collections characters.
+
+length ---> starts from 1
+
+index  ---> starts from 0 to n-1
+
+n --> length
+
+l = 10 = n
+
+0 to 9
+
+l = 100
+
+0 to 99
+
+
+
+Day 18 - 8:00AM - IST - 07/03/2024
+
+String Slicing
+
+extracts a section of a string and return it as a new string without modifying the original string
+
+slice()
+
+if statement --> a basic form of decision making, if condition true, we will do something, if not then don't do something
+
+if else
+
+else if else --> for multiple conditions 
+
+
+Day 19 - 8:00AM - IST - 08/03/2024 (Friday)
+
+Checked Property
+
+Switch in Js
+
+
+
+Day 20 - 8:00AM - IST - 13/03/2024 (Wednesday)
+
+Control Statement or Looping Statement
+
+three rules for looping 
+
+Intialization ---> were we start
+
+Condition ---> were we stop, we will stop based on the conditions, if the condition true the loop will run, otherwise the loop will stop. 
+
+Iteration ---> increase or decrease the value.
+
+Increment and Decrement operators 
+
+i++ or i = i + 1 post increment
+
+i-- or i = i - 1 post decrement
+
+Types of loops
+
+while loop, do while loop ---> traditional loops
+
+for loop ---> advanced loop
+
+loop through an array or for each loop
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
