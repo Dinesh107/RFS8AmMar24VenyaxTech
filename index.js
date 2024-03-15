@@ -196,38 +196,6 @@
 
 // }
 
-// let numbers = [2,3,4,5,6];
-
-// let max = Math.max(...numbers);
-
-// let min = Math.min(...numbers);
-
-// console.log(max);
-
-// console.log(min);
-
-// let username = "Js Student";
-
-// let letters = [...username];
-
-// console.log(letters);
-
-// function openShowRoom(...cars) {
-
-//    console.log(cars);
-
-// }
-
-// const car1 = "nexon";
-
-// const car2 = "seltos";
-
-// const car3 = "altroz";
-
-// const car4 = "creta";
-
-// openShowRoom(car1, car2, car3, car4);
-
 // document.getElementById("myBtn").onclick = function() {
 
 //    if(document.getElementById("myCheckbox").checked) {
@@ -242,7 +210,7 @@
 
 // }
 
-// let grade = "H";
+// let grade = "A";
 
 // switch (grade) {
 //   case "A":
@@ -273,7 +241,7 @@
 
 // let i = 1; // intialization  
 
-// while(i <= 5) {  // i = 1, i = 2, i =3, i =4, i = 5
+// while(i <= 5) {  // i = 1, i = 2, i =3, i =4, i = 5  ---> Entry Control Loop
 
 //    console.log(i); 
 
@@ -287,15 +255,104 @@
 
 // 10 to 1
 
-let i = 4; // intialization  
+// let i = 4; // intialization  
 
-while(i >= 1) {  //
+// while(i >= 1) {  //
 
-   console.log(i); 
+//    console.log(i); 
 
-   i = i - 1;  // decrementing i by 1
-}
+//    i = i - 1;  // decrementing i by 1
+// }
 
-console.log("-------------");
+// console.log("-------------");
 
-console.log(i);
+// console.log(i);
+
+
+// print 100 to 200
+
+//do while ---> exit control loop
+
+// let i = 190;
+
+// do {
+
+//    console.log(i);
+
+//    i = i + 1;
+
+// } while (i <= 200);
+
+
+//for loop :-  
+
+// print 1 to 10 using for loop
+
+
+//    1step     2 step   4th step  
+// for(let i = 1; i <= 10; i = i + 1) {
+//   // 3 step it will enter into the block when the condition is true
+//    console.log(i);
+
+//    document.write(i, "<br>");
+
+// }
+
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+// 1
+
+
+// X
+// X 
+// X
+// X
+// X
+// X
+// X
+// X
+// X
+// X
+
+
+
+
+
+// x 
+// x 
+// x 
+// x 
+// x 
+// y 
+// y 
+// y 
+// y 
+// y 
+
+
+// i 
+// i 
+// i 
+// i 
+// i 
+// j j j j j 
+
+
+
+
+
+
+
+
+
+
+
+
+
