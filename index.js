@@ -345,9 +345,63 @@
 // j j j j j 
 
 
+// for(let i = 1; i <= 10; i = i + 1) {
+
+//     if(i == 5) {
+
+//        break;
+
+//     }
+
+//     console.log(i);
+
+// }
+
+// for(var i = 1; i <= 10; i = i + 1) {
+
+//     if(i == 5) {
+
+//        continue;
+
+//     }
+
+//     console.log(i);
+
+// }
 
 
+       //1s        2s      8s
+  // for(var i = 1; i <= 10; i = i + 1) {   // responsible for row i = 1,i =2, i = 3, i=4  
 
+  //  // 3s
+
+  //         // 4s         5s      7s
+  //      for(var j = 1; j <= 10; j = j + 1) {  // responsible for values 
+     
+  //       //6s 
+  //          document.write(j, " ");
+
+  //      }
+  //      document.write("<br>");
+
+  // }
+
+
+  happyBirthday();
+  happyBirthday();
+  happyBirthday();
+  happyBirthday();
+  
+  
+ function happyBirthday() {
+  console.log("Happy birthday to you!");
+  console.log("Happy birthday to you!");
+  console.log("Happy birthday dear ____");
+  console.log("Happy birthday to you!");
+  console.log("you are ___ years old!");
+ } 
+
+ 
 
 
 
