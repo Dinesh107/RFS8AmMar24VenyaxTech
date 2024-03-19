@@ -324,6 +324,18 @@ for loop ---> advanced loop
 loop through an array or for each loop
 
 
+Day 21 - 8:00AM - IST - 19/03/2024 (Tuesday)
+
+break and continue
+
+break ---> break out of s loop entirely.
+
+continue ---> skip the particular iteraton of a loop
+
+nested loop --> a loop inside of another loop
+
+functions ---> define the code once, and use it many times, to perform some code, we need call the function name.
+
 
  
 
