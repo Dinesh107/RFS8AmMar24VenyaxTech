@@ -387,25 +387,77 @@
   // }
 
 
-  happyBirthday();
-  happyBirthday();
-  happyBirthday();
-  happyBirthday();
-  
-  
- function happyBirthday() {
-  console.log("Happy birthday to you!");
-  console.log("Happy birthday to you!");
-  console.log("Happy birthday dear ____");
-  console.log("Happy birthday to you!");
-  console.log("you are ___ years old!");
- } 
+
+//   startProgram();
+
+//   function startProgram() {
+ 
+//      let userName = "Ganesh";
+
+//      let age = 20;
+
+//      let height = 5.5;
+
+
+//      happyBirthday(userName, age, height); 
+
+//   }
+
+    
+//  function happyBirthday(name, age, h) {
+//   console.log("Happy birthday to you!");
+//   console.log("Happy birthday to you!");
+//   console.log("Happy birthday dear", name, "and your height is " + h);
+//   console.log("Happy birthday to you!");
+//   console.log("you are", age ,"years old!");
+//  } 
 
  
+// let area;
+
+// let width;
+
+// let height;
+
+// width = window.prompt("Enter a Width");
+
+// height = window.prompt("Enter a Height");
 
 
+// area = getArea(width, height);
+
+// console.log("Area is : " + area);
+
+// function getArea(width, height) {
+
+// //   let result = width * height;
+
+// //   return result;
+
+//     return width * height;
 
 
+// }
+
+// let age = validateAge(21);
+
+// console.log(age)
+
+// function validateAge(age) {
+
+// //  if(age >= 18) {
+
+// //    console.log("You can vote");
+
+// //  } else {
+
+// //      console.log("You cannot vote");
+
+// //  }
+
+//   return age >= 18 ? "You can vote" :"You cannot vote";
+
+// }
 
 
 
