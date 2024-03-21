@@ -336,9 +336,23 @@ nested loop --> a loop inside of another loop
 
 functions ---> define the code once, and use it many times, to perform some code, we need call the function name.
 
+Day 23 - 8:00AM - IST - 21/03/2024 (Wednesday).
+ 
+functions have has access to the global variables
+
+
+return statement --> return a value back to the place where you call the function or invoke the function.
+
+Ternary Operator ----> shortcut for an if/else statement, 
+
+takes 3 operators
+
+ a condition with ?, :
+
+
+ condition ? exprIfTrue : expIfFalse
 
  
-
 
 
 
