@@ -418,9 +418,9 @@
 // let width;
 
 // let height;
-
+                              2
 // width = window.prompt("Enter a Width");
-
+                            2
 // height = window.prompt("Enter a Height");
 
 
@@ -438,7 +438,7 @@
 
 
 // }
-
+ 
 // let age = validateAge(21);
 
 // console.log(age)
@@ -455,9 +455,179 @@
 
 // //  }
 
-//   return age >= 18 ? "You can vote" :"You cannot vote";
+//   return age >= 18 ? "You can vote" : "You cannot vote";
 
 // }
+
+
+// var name = "Ganesh";
+
+
+
+// varPractice();
+
+// function varPractice() {
+
+//   for(var i = 1; i <= 3; i+=1) {
+
+//     // console.log(i);
+  
+//   }
+
+// }
+
+
+
+// console.log(i);
+
+// let name = "ganesh";
+
+
+// let var const
+
+
+// let name = "ganesh";
+
+
+
+// varPractice();
+
+// function varPractice() {
+   
+//   for(var i = 1; i <= 3; i = i + 1) {
+
+//       // console.log(i);
+
+//   }
+
+// }
+
+// console.log(i);
+
+
+
+// let name = "ganesh";
+
+
+// let userName = "ganesh";
+
+// let products = 3;
+
+// let totalProducts = 100;
+
+
+// console.log("Hello", userName);
+
+// console.log("you have", products, "products in your cart");
+
+// console.log("Your total is ", totalProducts);
+
+// console.log(`Hello ${userName}`);
+
+// console.log(`You have ${products} products in your cart`);
+
+// console.log(`Your Total is ${totalProducts}`);
+
+// let text = `Hello ${userName} 
+
+// You have ${products} products in your cart
+
+// Your Total is ${totalProducts}`
+
+// console.log(text);
+
+
+
+// let fruits = ["apple", "orange", "grape"]; 
+
+// fruits[2] = "coconut";
+
+// fruits.push("lemon");  add element at the last
+
+// fruits.pop();  remove last element
+
+//fruits.unshift("mango"); add element at the beginning
+
+// fruits.shift();  remove beginning element
+
+// let length = fruits.length;
+
+// console.log(`the length of the array is ${length}`);
+
+// let index = fruits.indexOf("grape");
+
+// console.log(`the index of the orange is ${index}`);
+
+// console.log(fruits);
+
+
+// loop through an array
+
+// let prices = [20, 30, 40, 50, 45];
+
+
+// left to right order
+// for(let i = 0; i < prices.length; i = i + 1) {
+
+//   console.log(prices[i]);
+
+// }
+
+
+// right to left order 
+// for(let i = prices.length - 1; i >= 0; i = i - 1) {
+
+//   console.log(prices[i]);
+
+// }
+
+// for upstatement 
+
+// let prices = [23, 45, 46, 34];
+
+// for(let price of prices) {
+
+//     console.log(price);
+
+// }
+
+// sorting of array
+
+// let fruits = ["apple", "orange", "banana", "mango"];
+
+// fruits = fruits.sort();
+
+// fruits = fruits.sort().reverse();
+
+// for(let fruit of fruits) {
+
+//    console.log(fruit);
+
+// }
+
+// 2d array or multidimensional array
+
+// let fruits = ["apple", "orange", "banana"];
+
+// let vegetables = ["carrots", "onions", "potatos"];
+
+// let meats = ["eggs", "chicken", "fish"];
+
+// let groceryList = [fruits, vegetables, meats]
+
+// for(let  list of groceryList) {
+
+//   for(let food of list) {
+ 
+//      console.log(food);
+
+//   }
+
+// }
+
+
+
+
 
 
 
