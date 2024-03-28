@@ -336,7 +336,7 @@ nested loop --> a loop inside of another loop
 
 functions ---> define the code once, and use it many times, to perform some code, we need call the function name.
 
-Day 23 - 8:00AM - IST - 21/03/2024 (Wednesday).
+Day 22 - 8:00AM - IST - 21/03/2024 (Wednesday).
  
 functions have has access to the global variables
 
@@ -353,14 +353,49 @@ takes 3 operators
  condition ? exprIfTrue : expIfFalse
 
  
+Day 23 - 8:00AM - IST - 25/03/2024 (Monday).
 
 
+var and let 
+
+varaible scope = where a variable is accessible.
+
+let = variable are limited to block scope {}
+
+{
+
+let a = 12;
+
+}
 
 
+{
+
+ a = 12
+
+}
+var = variables are limited to function() {
+
+    var b = 23;
+
+}
 
 
+Day 24 - 8:00AM - IST - 26/03/2024 (Tuesday).
+
+Template Literals --->  instead of double quotes or single quotes, we are going to use Template Literals
+
+"oiawefjiojfoi4-98u8  user {password()}"
+
+it allows embedded variables and expressions ``
 
 
+Advanced Javascript 
+
+
+let numbers = 23;
+
+Array -----> in array we can store multiple values
 
 
 
