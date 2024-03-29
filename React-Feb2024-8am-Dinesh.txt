@@ -397,6 +397,12 @@ let numbers = 23;
 
 Array -----> in array we can store multiple values
 
+Day 27 - 8:00AM - IST - 29/03/2024 (Friday)
+
+spread Operator  --> array or string to be expanded in places where zero or more arguments are expected (unpacks the element) --> i.e too many individual elements
+
+... ---> operator
+
 
 
 

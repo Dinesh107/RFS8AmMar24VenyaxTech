@@ -625,10 +625,80 @@
 
 // }
 
+// let userName = "Ganesh Sankar";
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+
+// console.log(...numbers);
+
+// console.log(...userName);
+
+// let numbers = [1000, 1, 2, 3, 400, 5, 6, 7, 8, 9];
+
+// let maximum = Math.max(...numbers);
+
+// console.log(maximum);
 
 
+// let class1 = ["ganesh", "murugan", "siva"];
+
+// let class2 = ["john", "david", "aslam"];
+
+// class1.push(...class2);
+
+// console.log(...class1);
 
 
+// rest paramters -- > represent an indefinite number of paramters (pack arguments into a array) --> ...
+
+
+// let a = 1;
+
+// let b = 2;
+
+// let c = 3;
+
+// let d = 4;
+
+// let e = 5;
+
+// console.log(sum(a, b, c, d));
+
+// function sum(...numbers) {
+
+// let total = 0;
+
+// for(let number of numbers) { 
+
+//   total = total + number;
+
+// }
+// return total;
+// }
+
+// function sum2(a, b) {
+
+//   return a + b;
+
+// }
+
+// function sum3(a, b, c) {
+
+//   return a + b + c;
+
+// }
+
+// function sum4(a, b, c, d) {
+
+//   return a + b + c + d;
+
+// }
+
+// function sum5(a, b, c, d, e) {
+
+//   return a + b + c + d + e;
+
+// }
 
 
 
