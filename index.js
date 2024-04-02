@@ -700,5 +700,67 @@
 
 // }
 
+//            5
+// let total = sum(2 ,3);
+
+// displayConsole(total);
+// displayDocument(total);
+
+
+// function sum(x, y) {
+
+//   let result = x + y;
+
+//   return result;
+
+// }
+
+
+//          5
+// sum(2, 3, displayDocument);
+
+// sum(2, 3, displayConsole);
+
+// function sum(x, y, myFunction) {
+
+//    let result = x + y;
+
+//    myFunction(result);
+
+// }
+
+// function displayConsole(output) {
+
+//     console.log(output);
+
+// }
+
+// function displayDocument(output) {
+
+//   document.getElementById("myLabel").innerHTML = output;
+
+// }
+
+let students = ["ganesh", "john", "aslam"];
+ 
+//                  John 
+students.forEach(capitalize);
+
+students.forEach(print);
+ 
+           //John
+function capitalize(x, y, z) {
+// john               J                   ohn
+   z[y] = x[0].toUpperCase() + x.substring(1);
+
+}
+
+function print(x) {
+
+  console.log(x);
+
+}
+
+
 
 

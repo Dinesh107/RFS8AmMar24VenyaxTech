@@ -404,7 +404,20 @@ spread Operator  --> array or string to be expanded in places where zero or more
 ... ---> operator
 
 
+Day 28 - 8:00AM - IST - 1/04/2024 (Tuesday)
 
+Callbacks ---> callbacks is the function which is passed as an argument to another function
+
+it will ensures a function is not going to run before a task is completed.
+
+it helps to develop asynchronous code
+
+which helps us avoid error and potenial problems.
+
+Ex:- wait for a file load
+
+
+array.forEach() --> executes a provided callback for each array element.
 
 
 
