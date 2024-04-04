@@ -237,13 +237,11 @@
 //     console.log("Invaild Case");
 // }
 
-
-
-// let i = 1; // intialization  
+// let i = 1; // intialization
 
 // while(i <= 5) {  // i = 1, i = 2, i =3, i =4, i = 5  ---> Entry Control Loop
 
-//    console.log(i); 
+//    console.log(i);
 
 //    i = i + 1;  // incrementing i by 1
 // }
@@ -252,14 +250,13 @@
 
 // console.log(i);
 
-
 // 10 to 1
 
-// let i = 4; // intialization  
+// let i = 4; // intialization
 
 // while(i >= 1) {  //
 
-//    console.log(i); 
+//    console.log(i);
 
 //    i = i - 1;  // decrementing i by 1
 // }
@@ -267,7 +264,6 @@
 // console.log("-------------");
 
 // console.log(i);
-
 
 // print 100 to 200
 
@@ -283,13 +279,11 @@
 
 // } while (i <= 200);
 
-
-//for loop :-  
+//for loop :-
 
 // print 1 to 10 using for loop
 
-
-//    1step     2 step   4th step  
+//    1step     2 step   4th step
 // for(let i = 1; i <= 10; i = i + 1) {
 //   // 3 step it will enter into the block when the condition is true
 //    console.log(i);
@@ -309,9 +303,6 @@
 // 1
 // 1
 
-
-// X
-// X 
 // X
 // X
 // X
@@ -320,30 +311,26 @@
 // X
 // X
 // X
+// X
+// X
 
+// x
+// x
+// x
+// x
+// x
+// y
+// y
+// y
+// y
+// y
 
-
-
-
-// x 
-// x 
-// x 
-// x 
-// x 
-// y 
-// y 
-// y 
-// y 
-// y 
-
-
-// i 
-// i 
-// i 
-// i 
-// i 
-// j j j j j 
-
+// i
+// i
+// i
+// i
+// i
+// j j j j j
 
 // for(let i = 1; i <= 10; i = i + 1) {
 
@@ -369,60 +356,53 @@
 
 // }
 
+//1s        2s      8s
+// for(var i = 1; i <= 10; i = i + 1) {   // responsible for row i = 1,i =2, i = 3, i=4
 
-       //1s        2s      8s
-  // for(var i = 1; i <= 10; i = i + 1) {   // responsible for row i = 1,i =2, i = 3, i=4  
+//  // 3s
 
-  //  // 3s
+//         // 4s         5s      7s
+//      for(var j = 1; j <= 10; j = j + 1) {  // responsible for values
 
-  //         // 4s         5s      7s
-  //      for(var j = 1; j <= 10; j = j + 1) {  // responsible for values 
-     
-  //       //6s 
-  //          document.write(j, " ");
+//       //6s
+//          document.write(j, " ");
 
-  //      }
-  //      document.write("<br>");
+//      }
+//      document.write("<br>");
 
-  // }
-
-
+// }
 
 //   startProgram();
 
 //   function startProgram() {
- 
+
 //      let userName = "Ganesh";
 
 //      let age = 20;
 
 //      let height = 5.5;
 
-
-//      happyBirthday(userName, age, height); 
+//      happyBirthday(userName, age, height);
 
 //   }
 
-    
 //  function happyBirthday(name, age, h) {
 //   console.log("Happy birthday to you!");
 //   console.log("Happy birthday to you!");
 //   console.log("Happy birthday dear", name, "and your height is " + h);
 //   console.log("Happy birthday to you!");
 //   console.log("you are", age ,"years old!");
-//  } 
+//  }
 
- 
 // let area;
 
 // let width;
 
 // let height;
-                              2
+2;
 // width = window.prompt("Enter a Width");
-                            2
+2;
 // height = window.prompt("Enter a Height");
-
 
 // area = getArea(width, height);
 
@@ -436,9 +416,8 @@
 
 //     return width * height;
 
-
 // }
- 
+
 // let age = validateAge(21);
 
 // console.log(age)
@@ -459,10 +438,7 @@
 
 // }
 
-
 // var name = "Ganesh";
-
-
 
 // varPractice();
 
@@ -471,29 +447,23 @@
 //   for(var i = 1; i <= 3; i+=1) {
 
 //     // console.log(i);
-  
+
 //   }
 
 // }
-
-
 
 // console.log(i);
 
 // let name = "ganesh";
 
-
 // let var const
 
-
 // let name = "ganesh";
-
-
 
 // varPractice();
 
 // function varPractice() {
-   
+
 //   for(var i = 1; i <= 3; i = i + 1) {
 
 //       // console.log(i);
@@ -504,17 +474,13 @@
 
 // console.log(i);
 
-
-
 // let name = "ganesh";
-
 
 // let userName = "ganesh";
 
 // let products = 3;
 
 // let totalProducts = 100;
-
 
 // console.log("Hello", userName);
 
@@ -528,7 +494,7 @@
 
 // console.log(`Your Total is ${totalProducts}`);
 
-// let text = `Hello ${userName} 
+// let text = `Hello ${userName}
 
 // You have ${products} products in your cart
 
@@ -536,9 +502,7 @@
 
 // console.log(text);
 
-
-
-// let fruits = ["apple", "orange", "grape"]; 
+// let fruits = ["apple", "orange", "grape"];
 
 // fruits[2] = "coconut";
 
@@ -560,11 +524,9 @@
 
 // console.log(fruits);
 
-
 // loop through an array
 
 // let prices = [20, 30, 40, 50, 45];
-
 
 // left to right order
 // for(let i = 0; i < prices.length; i = i + 1) {
@@ -573,15 +535,14 @@
 
 // }
 
-
-// right to left order 
+// right to left order
 // for(let i = prices.length - 1; i >= 0; i = i - 1) {
 
 //   console.log(prices[i]);
 
 // }
 
-// for upstatement 
+// for upstatement
 
 // let prices = [23, 45, 46, 34];
 
@@ -615,10 +576,10 @@
 
 // let groceryList = [fruits, vegetables, meats]
 
-// for(let  list of groceryList) {
+// for(let list of groceryList) {
 
 //   for(let food of list) {
- 
+
 //      console.log(food);
 
 //   }
@@ -639,7 +600,6 @@
 
 // console.log(maximum);
 
-
 // let class1 = ["ganesh", "murugan", "siva"];
 
 // let class2 = ["john", "david", "aslam"];
@@ -648,9 +608,7 @@
 
 // console.log(...class1);
 
-
 // rest paramters -- > represent an indefinite number of paramters (pack arguments into a array) --> ...
-
 
 // let a = 1;
 
@@ -662,18 +620,22 @@
 
 // let e = 5;
 
-// console.log(sum(a, b, c, d));
+// //            15
+// console.log("the total is", sum(a, b, c, d, e));
 
-// function sum(...numbers) {
+// function sum(...numbers) { // [1, 2, 3, 4, 5]
 
-// let total = 0;
+// let total = 0; // total = 1, total = 3, total = 6, total = 10, total = 15
 
-// for(let number of numbers) { 
+// for(let number of numbers) {
 
 //   total = total + number;
 
 // }
+
+// //      15
 // return total;
+
 // }
 
 // function sum2(a, b) {
@@ -706,7 +668,6 @@
 // displayConsole(total);
 // displayDocument(total);
 
-
 // function sum(x, y) {
 
 //   let result = x + y;
@@ -714,7 +675,6 @@
 //   return result;
 
 // }
-
 
 //          5
 // sum(2, 3, displayDocument);
@@ -741,26 +701,129 @@
 
 // }
 
-let students = ["ganesh", "john", "aslam"];
- 
-//                  John 
-students.forEach(capitalize);
+// let students = ["ganesh", "john", "aslam"];
 
-students.forEach(print);
- 
-           //John
-function capitalize(x, y, z) {
-// john               J                   ohn
-   z[y] = x[0].toUpperCase() + x.substring(1);
+// //                  John
+// students.forEach(capitalize);
 
+// students.forEach(print);
+
+//            //John
+// function capitalize(x, y, z) {
+// // john               J                   ohn
+//    z[y] = x[0].toUpperCase() + x.substring(1);
+
+// }
+
+// function print(x) {
+
+//   console.log(x);
+
+// }
+
+// function walkDog() {
+
+//     return new Promise((resolve, reject) => {
+
+//       setTimeout(()=> {
+
+//         const dogwalked = true;
+
+//         if(dogwalked) {
+
+//           resolve("You walk the dog!!");
+
+//         } else {
+
+//            reject("You didn't walk the dog");
+
+//         }
+
+//        }, 2500);
+
+//     });
+
+// }
+
+// function cleanKitchen() {
+
+//      return new Promise((resolve, reject) => {
+
+//       setTimeout(() => {
+
+//         const kitchenCleaned = true;
+
+//         if(kitchenCleaned) {
+
+//           resolve("You clean the kitchen successfully!");
+
+//         } else {
+
+//              reject("You didn't clean the kitchen");
+
+//         }
+
+//       },3500);
+
+//      });
+
+// }
+
+// function takeOutTrash() {
+
+//   return new Promise((resolve, reject) => {
+
+//     setTimeout(() => {
+
+//      const trashTakeOut = true;
+
+//     if(trashTakeOut) {
+
+//       resolve("You take out the trash !");
+
+//     } else {
+
+//         reject("you didn't take out the trash");
+
+//     }
+
+//   }, 1500);
+
+//  });
+
+// }
+
+// walkDog(() => {
+//     cleanKitchen(() => {
+//       takeOutTrash(() => console.log("You Finish all the tasks!!"));
+//     });
+// });
+
+// walkDog().then(value => {console.log(value);  return cleanKitchen()})
+//          .then(value => {console.log(value);  return takeOutTrash()})
+//          .then(value => {console.log(value); console.log("You finsihed all the tasks!!!!")})
+
+//          .catch(error => console.error(error));
+
+let numbers = [1, 2, 3, 4, 5];
+
+let squares = numbers.map(square); // [1, 4, 9, 16, 25]
+
+squares.forEach(print);
+
+function square(element) {
+  return Math.pow(element, 2);
 }
 
-function print(x) {
-
-  console.log(x);
-
+function print(element) {
+  console.log(element);
 }
 
 
+// Rest Operator --> multiplication, for 6 elements
 
+// CallBack ---> multiplication, displayConsole, displayDocument
 
+// array.map ---> find the numbers of cubes i/p [1, 2, 3, 4, 5]
+
+// o/p [1, 8, 27, 64, 125];
