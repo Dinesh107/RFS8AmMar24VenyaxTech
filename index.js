@@ -805,19 +805,37 @@
 
 //          .catch(error => console.error(error));
 
-let numbers = [1, 2, 3, 4, 5];
+// let numbers = [1, 2, 3, 4, 5];
 
-let squares = numbers.map(square); // [1, 4, 9, 16, 25]
+// let squares = numbers.map(square); // [1, 4, 9, 16, 25]
 
-squares.forEach(print);
+// squares.forEach(print);
 
-function square(element) {
-  return Math.pow(element, 2);
-}
+// function square(element) {
+//   return Math.pow(element, 2);
+// }
 
-function print(element) {
-  console.log(element);
-}
+// function print(element) {
+//   console.log(element);
+// }
+
+// let nums = [2,3,4];
+
+// let squrs = nums.map(cubic);
+
+// function cubic(element) {
+//   return Math.pow(element, 3);
+// }
+
+// console.log(squrs);
+
+// function printConsole(element) {
+//   console.log(element);
+// }
+
+// squrs.forEach(printConsole);
+
+
 
 
 // Rest Operator --> multiplication, for 6 elements
@@ -827,3 +845,94 @@ function print(element) {
 // array.map ---> find the numbers of cubes i/p [1, 2, 3, 4, 5]
 
 // o/p [1, 8, 27, 64, 125];
+
+
+// let ages = [18, 16, 21, 17, 19, 90];
+
+
+// let adults = ages.filter(checkAge);
+
+// function checkAge(element) {
+
+//     return element >= 18;
+
+// }
+
+// console.log(adults);
+
+// adults.forEach(printConsole);
+
+// function printConsole(element) {
+//   console.log(element);
+// }
+
+
+// let grades = [100, 50, 80, 70];
+
+// grades = grades.sort(decendingSort);
+
+// function decendingSort(i, j) {
+//     return j - i;
+// }
+
+// let result = decendingSort(50, 400);
+
+// console.log(result);
+
+// console.log(grades)
+
+
+// function sayHello() {
+ 
+//   console.log("Hello!");
+
+// }
+
+// sayHello();
+
+
+// const welcome = function() {
+
+//   console.log("Hello!");
+
+// }
+
+// welcome();
+
+
+let count = 0;
+
+document.getElementById("increaseBtn").onclick = function() {
+
+  count += 1;
+
+  document.getElementById("myLabel").innerHTML = count;
+    
+
+}
+
+document.getElementById("decreaseBtn").onclick = function() {
+
+  count -= 1;
+
+  document.getElementById("myLabel").innerHTML = count;
+    
+
+}
+
+
+// function increaseCount() {
+
+    //  count += 1;
+
+    //  document.getElementById("myLabel").innerHTML = count;
+
+// }
+
+// function decreaseCount() {
+
+  // count -= 1;
+
+  // document.getElementById("myLabel").innerHTML = count;
+
+// }
