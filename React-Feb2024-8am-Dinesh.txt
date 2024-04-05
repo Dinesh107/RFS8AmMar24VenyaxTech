@@ -421,8 +421,14 @@ array.forEach() --> executes a provided callback for each array element.
 
 
 
+Day 29 - 2:20:00PM - IST - 5/04/2024 (Friday)
 
 
+array.filter() 
+
+Sorting of an array
+
+function expression --> function without a name 
 
 
 
