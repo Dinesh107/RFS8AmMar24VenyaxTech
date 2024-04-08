@@ -900,25 +900,25 @@
 // welcome();
 
 
-let count = 0;
+// let count = 0;
 
-document.getElementById("increaseBtn").onclick = function() {
+// document.getElementById("increaseBtn").onclick = function() {
 
-  count += 1;
+//   count += 1;
 
-  document.getElementById("myLabel").innerHTML = count;
+//   document.getElementById("myLabel").innerHTML = count;
     
 
-}
+// }
 
-document.getElementById("decreaseBtn").onclick = function() {
+// document.getElementById("decreaseBtn").onclick = function() {
 
-  count -= 1;
+//   count -= 1;
 
-  document.getElementById("myLabel").innerHTML = count;
+//   document.getElementById("myLabel").innerHTML = count;
     
 
-}
+// }
 
 
 // function increaseCount() {
@@ -936,3 +936,32 @@ document.getElementById("decreaseBtn").onclick = function() {
   // document.getElementById("myLabel").innerHTML = count;
 
 // }
+
+// const greeting = function(userName) {
+
+//     console.log(`hello ${userName}`); 
+
+// }
+
+// function greeting() {
+
+
+// }
+
+// greeting("Ganesh");
+
+// const greeting = (userName) => {console.log(`hello ${userName}`);}
+
+// greeting("Ganesh");
+
+// const percent = function(x, y) {
+
+//     return x / y * 100;
+
+// }
+
+
+const percent = (x, y) => x / y * 100;
+
+console.log(`${percent(60, 50)}%`);
+
