@@ -428,7 +428,39 @@ array.filter()
 
 Sorting of an array
 
-function expression --> function without a name 
+Function expression --> function without a name 
+
+Day 29 - 2:46:00PM - IST - 5/04/2024 (Monday)
+
+
+Arrow Function ---> Compact alternative to a traditional function 
+
+function hello() {
+
+     
+
+}
+ 
+Task in arrow 
+
+Find the given shape is square or not
+
+Nested Function 
+
+Function inside other function 
+
+outer function have access to the inner function are "hidden" from outside used on closures
+
+Map ---> object that holds key-value pairs of any data type.
+
+101 ganesh = one entry 
+
+102 ganesh = one entry
+
+
+
+
+
 
 
 
