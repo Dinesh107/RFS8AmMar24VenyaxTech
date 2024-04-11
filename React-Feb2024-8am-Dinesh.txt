@@ -441,10 +441,24 @@ function hello() {
 
 }
  
-
 Task in arrow 
 
-Find the given shape is square or not 
+Find the given shape is square or not
+
+Nested Function 
+
+Function inside other function 
+
+outer function have access to the inner function are "hidden" from outside used on closures
+
+Map ---> object that holds key-value pairs of any data type.
+
+101 ganesh = one entry 
+
+102 ganesh = one entry
+
+
+
 
 
 

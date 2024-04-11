@@ -721,90 +721,6 @@
 
 // }
 
-// function walkDog() {
-
-//     return new Promise((resolve, reject) => {
-
-//       setTimeout(()=> {
-
-//         const dogwalked = true;
-
-//         if(dogwalked) {
-
-//           resolve("You walk the dog!!");
-
-//         } else {
-
-//            reject("You didn't walk the dog");
-
-//         }
-
-//        }, 2500);
-
-//     });
-
-// }
-
-// function cleanKitchen() {
-
-//      return new Promise((resolve, reject) => {
-
-//       setTimeout(() => {
-
-//         const kitchenCleaned = true;
-
-//         if(kitchenCleaned) {
-
-//           resolve("You clean the kitchen successfully!");
-
-//         } else {
-
-//              reject("You didn't clean the kitchen");
-
-//         }
-
-//       },3500);
-
-//      });
-
-// }
-
-// function takeOutTrash() {
-
-//   return new Promise((resolve, reject) => {
-
-//     setTimeout(() => {
-
-//      const trashTakeOut = true;
-
-//     if(trashTakeOut) {
-
-//       resolve("You take out the trash !");
-
-//     } else {
-
-//         reject("you didn't take out the trash");
-
-//     }
-
-//   }, 1500);
-
-//  });
-
-// }
-
-// walkDog(() => {
-//     cleanKitchen(() => {
-//       takeOutTrash(() => console.log("You Finish all the tasks!!"));
-//     });
-// });
-
-// walkDog().then(value => {console.log(value);  return cleanKitchen()})
-//          .then(value => {console.log(value);  return takeOutTrash()})
-//          .then(value => {console.log(value); console.log("You finsihed all the tasks!!!!")})
-
-//          .catch(error => console.error(error));
-
 // let numbers = [1, 2, 3, 4, 5];
 
 // let squares = numbers.map(square); // [1, 4, 9, 16, 25]
@@ -835,9 +751,6 @@
 
 // squrs.forEach(printConsole);
 
-
-
-
 // Rest Operator --> multiplication, for 6 elements
 
 // CallBack ---> multiplication, displayConsole, displayDocument
@@ -846,9 +759,7 @@
 
 // o/p [1, 8, 27, 64, 125];
 
-
 // let ages = [18, 16, 21, 17, 19, 90];
-
 
 // let adults = ages.filter(checkAge);
 
@@ -866,7 +777,6 @@
 //   console.log(element);
 // }
 
-
 // let grades = [100, 50, 80, 70];
 
 // grades = grades.sort(decendingSort);
@@ -881,15 +791,13 @@
 
 // console.log(grades)
 
-
 // function sayHello() {
- 
+
 //   console.log("Hello!");
 
 // }
 
 // sayHello();
-
 
 // const welcome = function() {
 
@@ -899,7 +807,6 @@
 
 // welcome();
 
-
 // let count = 0;
 
 // document.getElementById("increaseBtn").onclick = function() {
@@ -907,7 +814,6 @@
 //   count += 1;
 
 //   document.getElementById("myLabel").innerHTML = count;
-    
 
 // }
 
@@ -916,35 +822,32 @@
 //   count -= 1;
 
 //   document.getElementById("myLabel").innerHTML = count;
-    
 
 // }
 
-
 // function increaseCount() {
 
-    //  count += 1;
+//  count += 1;
 
-    //  document.getElementById("myLabel").innerHTML = count;
+//  document.getElementById("myLabel").innerHTML = count;
 
 // }
 
 // function decreaseCount() {
 
-  // count -= 1;
+// count -= 1;
 
-  // document.getElementById("myLabel").innerHTML = count;
+// document.getElementById("myLabel").innerHTML = count;
 
 // }
 
 // const greeting = function(userName) {
 
-//     console.log(`hello ${userName}`); 
+//     console.log(`hello ${userName}`);
 
 // }
 
 // function greeting() {
-
 
 // }
 
@@ -960,8 +863,134 @@
 
 // }
 
+// const percent = (x, y) => x / y * 100;
 
-const percent = (x, y) => x / y * 100;
+// console.log(`${percent(60, 50)}%`);
 
-console.log(`${percent(60, 50)}%`);
+// let userName = "Ganesh";
+
+// let userInbox = 0;
+
+// displayUserInbox();
+
+// displayUserName();
+
+// login();
+
+// function login() {
+//   displayUserName();
+
+//   displayUserInbox();
+
+//   function displayUserName() {
+//     console.log(`Welcome! ${userName}`);
+//   }
+
+//   function displayUserInbox() {
+//     console.log(`You have ${userInbox} new messages`);
+//   }
+// }
+
+// const store = new Map([
+
+//   ["t-shirt", 200],
+//   ["pants", 300],
+//   ["shoes", 400],
+//   ["bag", 500],
+//   ["shirt", 600]
+
+// ]);
+
+// let shopingCart = 0;
+
+// shopingCart += store.get("shoes");
+
+// shopingCart += store.get("bag");
+
+// shopingCart += store.get("t-shirt");
+
+// store.set("cap", 50);
+
+// store.set("mobile phone", 1000);
+
+// store.delete("cap");
+
+// store.delete("mobile phone");
+
+// console.log(store.has("bag"));
+
+// console.log(store.has("car"));
+
+// console.log(shopingCart);
+
+// console.log(store);
+
+// store.forEach((value, key) => console.log(`${key} ${value}`));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
